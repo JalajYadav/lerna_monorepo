@@ -1,0 +1,26 @@
+{
+  "name": "package_a",
+  "version": "0.0.0",
+  "description": "this is package a, it will be used as to provide common components to different packages",
+  "homepage": "https://github.com/JalajYadav/lerna_monorepo#readme",
+  "bugs": {
+    "url": "https://github.com/JalajYadav/lerna_monorepo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalajYadav/lerna_monorepo.git"
+  },
+  "license": "ISC",
+  "author": "JalajYadav <jalajyadav99@gmail.com>",
+  "main": "lib/package_a.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/package_a.test.js"
+  }
+}
