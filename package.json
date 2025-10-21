@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "package_a": "cd packages/package_a && npm run dev"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^9.0.0"
