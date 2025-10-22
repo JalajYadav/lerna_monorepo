@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "package_a": "cd packages/package_a && npm run dev"
+    "package_a": "cd packages/package_a && npm run dev",
+    "package_b": "cd packages/package_b && npm run dev"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
