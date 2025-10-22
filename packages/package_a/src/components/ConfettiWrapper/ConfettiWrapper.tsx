@@ -5,7 +5,7 @@ interface ConfettiContainerProps {
     children: React.ReactNode
 }
 
-interface Confetti {
+export interface Confetti {
     x: number;
     y: number;
     dx: number;
@@ -82,7 +82,7 @@ const ConfettiContainer = ({ children }: ConfettiContainerProps) => {
     return (
         <>
             <div onClick={onClick}>{children}</div>
-            <canvas id="confetti-canvas"></canvas>
+            <canvas id="confetti-canvas" data-testid='confetti-canvas'></canvas>
         </>
     )
 }

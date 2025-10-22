@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import './button.css';
-import ConfettiContainer from '../ConfettiWrapper/ConfettiWrapper';
 
 const Button = () => {
     const [count, setCount] = useState<number>(0);
@@ -8,11 +7,9 @@ const Button = () => {
 
     return (
         <div >
-            <ConfettiContainer>
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-            </ConfettiContainer>
+            <button onClick={() => setCount((count) => count + 1)}>
+                count is {count}
+            </button>
         </div>
     )
 }
